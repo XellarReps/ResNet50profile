@@ -48,6 +48,8 @@ bash run_profile.sh
 | Bottleneck        | 12.854250 |
 | AdaptiveAvgPool2d | 0.038467  |
 
+The profiling results were obtained using the analyzer module: https://github.com/XellarReps/analyzer
+
 ## Links
 MLCommons (MLPerf logging):\
 https://github.com/mlcommons/logging
