@@ -33,6 +33,21 @@ To start training, enter:
 bash run_profile.sh
 ```
 
+### Profile results
+1) NVIDIA A100 (80gb) (1 epoch, 256 batch size)
+
+| Op_type           | Time(min) |
+|-------------------|-----------|
+| MaxPool2d         | 0.123017  |
+| Linear            | 0.031333  |
+| Conv2d            | 4.207400  |
+| ReLU              | 2.383283  |
+| BatchNorm2d       | 3.679533  |
+| ResNet            | 14.324233 |
+| Sequential        | 14.200983 |
+| Bottleneck        | 12.854250 |
+| AdaptiveAvgPool2d | 0.038467  |
+
 ## Links
 MLCommons (MLPerf logging):\
 https://github.com/mlcommons/logging
