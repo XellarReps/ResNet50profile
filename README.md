@@ -48,6 +48,20 @@ bash run_profile.sh
 | Bottleneck        | 12.854250 |
 | AdaptiveAvgPool2d | 0.038467  |
 
+2) AMD Instinct MI100 (32 gb) (1 epoch, 256 batch size)
+
+| Op_type           | Time(min) |
+|-------------------|-----------|
+| Linear            | 0.028900  |
+| Conv2d            | 7.862933  |
+| Sequential        | 18.477633 |
+| ResNet            | 18.305917 |
+| MaxPool2d         | 0.173133  |
+| BatchNorm2d       | 4.361300  |
+| ReLU              | 3.496783  |
+| Bottleneck        | 16.885650 |
+| AdaptiveAvgPool2d | 0.070567  |
+
 The profiling results were obtained using the analyzer module: https://github.com/XellarReps/analyzer
 
 ## Links
